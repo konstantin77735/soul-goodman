@@ -696,3 +696,358 @@ header .slider-dots ul li.slick-active button {
         grid-template-columns: 1fr;
     }
 }
+
+#testimonials {
+    background: #4a5b74;
+    padding: 70px 0;
+}
+
+#testimonials > .wr ul.slider li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#testimonials > .wr ul.slider li .quotes {
+    width: 30px;
+    height: 22px;
+    background: url("../img/qoutes.png");
+    margin-bottom: 30px;
+}
+
+#testimonials > .wr ul.slider li .text {
+    color: white;
+    font-family: "Oxygen", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    max-width: 960px;
+    margin-bottom: 35px;
+}
+
+#testimonials > .wr ul.slider li .stars {
+    display: flex;
+    font-size: 26px;
+    margin-bottom: 35px;
+}
+
+#testimonials > .wr ul.slider li .stars span {
+    margin: 0 -1px;
+    color: #828e9e;
+}
+
+#testimonials > .wr ul.slider li .stars span.active {
+    color: #a69069;
+}
+
+#testimonials > .wr ul.slider li .photo {
+    margin-bottom: 20px;
+}
+
+#testimonials > .wr ul.slider li .photo img {
+    width: 83px;
+    height: 83px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#testimonials > .wr ul.slider li .name {
+    font-family: "Rufina", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: white;
+}
+
+#testimonials > .wr ul.slider li .speciality {
+    font-family: "Oxygen", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: white;
+}
+
+#team {
+    padding: 100px 0;
+}
+
+#team > .wr > .title {
+    color: #333;
+    font-family: "Rufina", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+#team > .wr > .text {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    color: #555;
+    font-family: "Oxygen", sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+#team > .wr > .text p:first-of-type {
+    margin-top: 0;
+}
+
+#team > .wr > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+#team > .wr > ul li {
+    position: relative;
+}
+
+#team > .wr > ul li .for-img {
+    padding-top: 95.84352%;
+    background: no-repeat center top / cover;
+}
+
+#team > .wr > ul li .content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#team > .wr > ul li .content .name {
+    display: block;
+    color: white;
+    font-family: "Rufina", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-decoration: none;
+}
+
+#team > .wr > ul li .content .name:hover {
+    color: #a69069;
+}
+
+#team > .wr > ul li .content .specaility {
+    color: #d9d9d9;
+    font-family: "Oxygen", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+#team > .wr > ul li .content .dop {
+    display: none;
+}
+
+#team > .wr > ul li:hover .for-img,
+#team > .wr > ul li.active .for-img {
+    filter: brightness(20%);
+}
+
+#team > .wr > ul li:hover .content,
+#team > .wr > ul li.active .content {
+    justify-content: center;
+}
+
+#team > .wr > ul li:hover .content .dop,
+#team > .wr > ul li.active .content .dop {
+    display: block;
+    margin-top: 18px;
+}
+
+#team > .wr > ul li:hover .content .dop .text,
+#team > .wr > ul li.active .content .dop .text {
+    color: #ddd;
+    font-family: "Oxygen", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 18px;
+}
+
+#team > .wr > ul li:hover .content .dop .social,
+#team > .wr > ul li.active .content .dop .social {
+    display: flex;
+    align-items: baseline;
+}
+
+#team > .wr > ul li:hover .content .dop .social a,
+#team > .wr > ul li.active .content .dop .social a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #c2bfba;
+    margin-right: 18px;
+    font-size: 12px;
+}
+
+#team > .wr > ul li:hover .content .dop .social a:hover,
+#team > .wr > ul li.active .content .dop .social a:hover {
+    color: #a69069;
+}
+
+@media (max-width:768px) {
+    #team > .wr > ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:425px) {
+    #team > .wr > ul {
+        grid-template-columns: 1fr;
+    }
+}
+
+#prices {
+    padding-bottom: 100px;
+}
+
+#prices > .wr {
+    text-align: center;
+}
+
+#prices > .wr > .title {
+    color: #333;
+    font-family: "Rufina", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+#prices > .wr > .text {
+    max-width: 565px;
+    max-height: 58px;
+    color: #9b9b9b;
+    font-family: "Rufina", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 auto 35px;
+    overflow: hidden;
+}
+
+#prices > .wr > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+}
+
+#prices > .wr > ul li {
+    border: 6px solid #44474b;
+    overflow: hidden;
+    position: relative;
+    padding: 80px 0 50px;
+}
+
+#prices > .wr > ul li .percents {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 120px;
+    height: 50px;
+    background: #44474b;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 9px;
+    transform: rotate(-40deg) translate(-23px, -39px);
+    color: white;
+    font-family: "Oxygen", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+#prices > .wr > ul li .price {
+    font-family: "Oxygen", sans-serif;
+}
+
+#prices > .wr > ul li .price .prev-price {
+    display: inline-block;
+    color: #44474b;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+#prices > .wr > ul li .price .actual-price {
+    color: #a69069;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+#prices > .wr > ul li .price .actual-price sup {
+    font-size: 47px;
+}
+
+#prices > .wr > ul li .price .period {
+    color: #9b9b9b;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 10px;
+}
+
+#prices > .wr > ul li .title {
+    color: #444;
+    font-family: "Rufina", serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 46px 0 31px 0;
+}
+
+#prices > .wr > ul li .text {
+    max-height: 78px;
+    overflow: hidden;
+    color: #555;
+    font-family: "Oxygen", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0 35px;
+    margin-bottom: 40px;
+}
+
+#prices > .wr > ul li.active {
+    border-color: #a69069;
+    padding: 110px 0 60px;
+}
+
+#prices > .wr > ul li.active .percents {
+    width: 177px;
+    height: 74px;
+    background-color: #a69069;
+    font-size: 20px;
+    transform: rotate(-40deg) translate(-34px, -68px);
+}
+
+#prices > .wr > ul li.active .title {
+    margin-bottom: 31px;
+}
+
+#prices > .wr > ul li.active .text {
+    margin-bottom: 50px;
+}
+
+@media (max-width:768px) {
+    #prices > .wr > ul {
+        grid-template-columns: 1fr;
+    }
+}
